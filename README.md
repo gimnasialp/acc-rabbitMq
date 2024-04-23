@@ -15,3 +15,16 @@ crear queue desde rabbitUI(QUEUES), ejecutar Publisher class, y ver en la UI el 
 8. Consuming Message From Queue
 9. 
 
+0.0.2
+
+9. Multiple Consumers Scenario & Round Robin Fashion
+
+0.0.4
+
+12. Publishing JSON Message To Queue
+
+Se agrego dependencia org.json y se creo CLase RealTimeExample.
+
+Prueba:
+la misma, levantar rabbit , ejecutar clase RealTimeExplorer y luego Consumer
+
