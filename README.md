@@ -21,6 +21,8 @@ crear queue desde rabbitUI(QUEUES), ejecutar Publisher class, y ver en la UI el 
 
 0.0.4
 
+Section 4: Real Time Example With JSON Message
+
 12. Publishing JSON Message To Queue
 
 Se agrego dependencia org.json y se creo CLase RealTimeExample.
@@ -28,3 +30,11 @@ Se agrego dependencia org.json y se creo CLase RealTimeExample.
 Prueba:
 la misma, levantar rabbit , ejecutar clase RealTimeExplorer y luego Consumer
 
+
+0.5.0
+Section 5 - Direct Exchange
+
+DirectConsumer  -ojo con parametros queue
+DirectPublisher - ojo con los parametros exchange y queue
+
+Pruebas- la misma.

@@ -16,7 +16,7 @@ public class DirectPublisher {
 		
 		String message = "This is mobile";
 		
-		channel.basicPublish("Direct-Exchange", "mobile", null, message.getBytes());
+		channel.basicPublish("direct-exchange", "mobile", null, message.getBytes());
 		
 		channel.close();
 		connection.close();
